@@ -28,8 +28,8 @@ body{
 .main, .rating-result{
     background-color: var(--dark-blue);
     padding: 1.5rem;
-    border-radius: 0.6rem;
-    max-width: 500px;
+    border-radius: 1rem;
+    max-width: 350px;
 }
 .main img{
     background-color: var(--dark-blue-green);
@@ -126,10 +126,17 @@ ul{
 }
 .attribution {
     color: var(--white);
-    font-size: 1.2rem;
+    font-size: .9rem;
     text-align: center;
     margin-top: 2rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px){
+    .attribution {
+        font-size: .8rem;
+
+    }
 }
