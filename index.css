@@ -7,12 +7,12 @@
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
     --orange: hsl(25, 97%, 53%);
-    --dark-blue-green: hsl(212, 18%, 20%);
+    --dark-blue-green: hsl(215, 19%, 22%);
 }
 body{
     font-family: 'Overpass', sans-serif;
     background-color: var(--very-dark-blue);
-    font-size: 15px;
+    font-size: 1.1rem;
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
